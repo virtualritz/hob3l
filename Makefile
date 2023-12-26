@@ -40,7 +40,7 @@ NDEBUG ?= 0
 FRAME ?= 0
 PSTRACE ?= 0
 FUZZ ?= 0
-TARGET ?= gcc
+TARGET ?= clang
 
 _ := $(shell (\
     echo MODE:=$(MODE) ; \
